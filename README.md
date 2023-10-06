@@ -1,4 +1,9 @@
 # Fracture_Intensity_Predictor
+
+Title of manuscript: Robust Fracture Intensity estimation from petrophysical logs and mud loss data: A Multi-level ensemble modeling Approach
+
+Authors: Ahmad Azadivash, Hosseinali Soleymani, Atrina Seifirad, Amirali Sandani, Farshid Yahyaee, Ali Kadkhodaie
+
 This code exemplifies a comprehensive machine learning workflow for a regression task in the oil and gas domain. It aims to predict the intensity of well logs, which are records of rock properties made during drilling. The fracture intensity value is critical for assessing potential oil and gas reserves.
 The code first loads and prepares the input dataset, which contains measurements of 12 well log attributes like depth, density, porosity etc. It splits the data into training and test sets for modeling.
 Various regression algorithms are implemented - ensemble methods like gradient boosting, random forests, extra trees as well as XGBoost, LightGBM, CatBoost. The models are trained on the data and evaluated using regression metrics: MAE, RMSE, MSE and R^2.
